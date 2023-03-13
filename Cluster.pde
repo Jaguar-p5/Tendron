@@ -12,6 +12,7 @@ public void setup() {
 }
 
  public void draw(){
+ if(Math.random() > 0.99) theRocks.add(new Rock(mouseX, mouseY));
    background(0);
   textSize(48);
   textAlign(CENTER,CENTER);
