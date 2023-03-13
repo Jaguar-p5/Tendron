@@ -1,4 +1,5 @@
 public void setup() {
+  size(600, 600);
   background(0);
   textSize(48);
   textAlign(CENTER,CENTER);
