@@ -31,5 +31,5 @@ float myX, myY, myRadius;
 public Rock(float x, float y){
 myX = x; myY = y; myRadius = 20;
 }
-void show(){ellipse(myX, myY, myRadius, myRadius);}
+public void show(){ellipse(myX, myY, myRadius, myRadius);}
 }
